@@ -263,7 +263,7 @@ function provider (registry, { Biome, version }) {
     }
 
     getProperties () {
-      return Object.assign(this._properties, this.computedStates)
+      return Object.assign(this._properties || {}, this.computedStates || {})
     }
 
     canHarvest (heldItemType) {

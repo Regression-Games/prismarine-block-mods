@@ -1,7 +1,7 @@
 {
-  "name": "prismarine-block",
-  "version": "1.17.1",
-  "description": "Represent a minecraft block with its associated data",
+  "name": "rg-prismarine-block-mods",
+  "version": "1.17.1-rg1",
+  "description": "Represent a minecraft block with its associated data, with mods support for Regression Games",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec --exit",
